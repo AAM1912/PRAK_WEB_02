@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Registrasi Siswa</title>
+    </head>
+    <body>
+        <header>
+            <table align="center" width=100%>
+                <td><img src="school.jpg" width="200" height="150"></td>
+                <td widht="50"></td>
+                <th><fontface="Tahoma" size="10">Kidzone School</fontface></th><br>
+                <td widht="50"></td>
+        </header>
+        <main>
+            <table align="center" border="1">
+                <tr class="heading">
+                    <td><center><h2><fontface="Tahoma">Formulir Pendaftaran Siswa</fontface></h2></center></td>
+                    <td><center><h2><fontface="Tahoma">User Pendaftaran Siswa</fontface></h2></center></td>
+
+                <tr>
+                    <div class="kiri">
+                        <td>
+                            <form>
+                                <table>
+                                    <tr>
+                                        <th><fontface="Tahoma">Lengkapi Data Diri Anda Dengan Benar</fontface></th>
+                                        <th>!</th>
+                                        </tr>
+                                        <br>
+                                        <tr>
+                                            <td>Nama</td>
+                                            <td>:</td>
+                                            <td><input type="text" name="name" value="" size="30" ></td>
+                                        </tr>
+                                        <tr>
+                                            <td>NIK</td>
+                                            <td>:</td>
+                                            <td><input type="text" name="NIK" value="" size="30" placeholder="0101010110" ></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tempat,Tanggal Lahir</td>
+                                            <td>:</td>
+                                            <td colspan="2"><input type="text" name="tempat"/></td>
+                                            <td><input type="date" name="tanggal_lahir"/></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jenis Kelamin</td>
+                                            <td>:</td>
+                                            <td><input type="radio" name="jk" value="L" checked />Laki-laki</td>
+                                            <td><input type="radio" name="jk" value="p" />Perempuan</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Nomor Telephone</td>
+                                            <td>:</td>
+                                            <td><input type="text" name="telephone" value="" size="30" placeholder="08xxxxxxxxxxx" ></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Email</td>
+                                            <td>:</td>
+                                            <td><input type="Email" name="Email"/></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Alamat</td>
+                                            <td>:</td>
+                                            <td><textarea name="alamat" rows="4" cols="30"></textarea></td>
+                                        </tr> 
+                                    </tr>
+                                </table>                                
+                            </form>
+                        </td>
+                    </div>
+                    <div class="kanan">
+                        <td>
+                            <form>
+                                <table>
+                                    <tr>
+                                        <th><fontface="Tahoma">Masukan Informasi Dengan Benar!</fontface></th>
+                                        <td>:</td>
+                                    </tr>
+                                    <tr>
+                                        <td>User id</td>
+                                        <td>:</td>
+                                        <td><input type="text" name="id"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Password</td>
+                                        <td>:</td>
+                                        <td><input type="Password" name="Password"></td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </td>
+                    </div>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <center><button type="Submit">Submit</button></center>
+                        <center><button type="reset">Reset</button></center>
+                    </td>
+                </tr>
+        </main>
+    </body>
+</html>
